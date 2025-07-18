@@ -23,7 +23,7 @@ def detectar_aire_acondicionado_en_imagenes(image_list, st=None):
 
     CLIENT = InferenceHTTPClient(
         api_url="https://serverless.roboflow.com",
-        api_key="EYfHRlA9fPiyTkjW6pKs"
+        api_key="..."
     )
 
     detecciones_positivas = 0
